@@ -1,11 +1,11 @@
-# ERC20 Goerli to Mumbai Bridge Using fxPortal
+# ERC721 Goerli to Mumbai Bridge Using fxPortal
 This project demonstrates how to use the fxPortal contracts to transfer ERC20 tokens from Goerli to Mumbai.
 
 ### Steps for Bridging
 
 1. Run npm i to install dependencies
-2. Put your private key in the .env.examples file and rename to .env when finished
-3. Run npx hardhat run scripts/deploy.js --network goerli to deploy ERC20 contract
+2. Put your private key in the .env
+3. Run npx hardhat run scripts/deploy.js --network goerli to deploy ERC721 contract
 4. Paste the newly deployed contract address in the tokenAddress variable for the other scripts
 5. Make sure to fill in your public key
 6. Run npx hardhat run scripts/mint.js --network goerli to mint tokens to your wallet
